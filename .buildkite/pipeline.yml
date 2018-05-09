@@ -4,3 +4,4 @@ steps:
     plugins:
       docker-compose#v2.2.0:
         run: app
+        config: docker-compose.yml
